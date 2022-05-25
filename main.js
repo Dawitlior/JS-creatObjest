@@ -223,12 +223,98 @@
 // 21.	צרו פונקציה המקבלת מספר כארגומנט ומייצרת מספר אובייקטים, על פי המספר, של מחשב, לכל מחשב יש חברה, דגם, משקל והאם יש במלאי.
 //  תנו להם ערכים מהמשתמש, הדפיסו רק את המחשבים שיש במלאי והמשקל שלהם מעל 2 קילו למסך, כל מחשב ב p משלו.
 
-
-
+// function printOnlyTheComputer(number){
+// var tempArray = []
+// for(var i = 0 ; i<number ; i++){
+// var computer = {}
+// computer.company = prompt("type random company of computer");
+// computer.model = prompt("type a random computer model");
+// computer.kg = +prompt("type random kg");
+// computer.available = confirm("type if computer available")
+// tempArray.push(computer);
+// }
+// if(computer.available){
+//     document.write(
+//       "<p>" + computer.company + "</p>",
+//       "<p>" + computer.model + "</p>",
+//       "<p>" + computer.kg + "</p>",
+//       "<p>" + computer.available + "</p>"
+//     );
+// }
+// }
+// printOnlyTheComputer(2);
 
 
 
 
 
 // 22.	צרו פונקציה המקבלת מספר כארגומנט ומייצרת מספר אובייקטים, על פי המספר, של מורה, לכל מורה יש שם מלא, שכר שעתי, אימייל ושנת לידה. תנו להם ערכים מהמשתמש, הדפיסו רק את המורים שמקבלים יותר מ 100  שקל לשעה או שנת הלידה שלהם נמוכה מ 1990 למסך, כל מורה ב SPAN משלו.
+
+// function printSomeOfTheValue(number){
+// for(var i = 0 ; i<number ; i++){
+//     var techer = {}
+//     techer.name = prompt("type your name");
+//     techer.hourSalary = +prompt("how much money yo do in hour");
+//     techer.email = prompt("type your email");
+//     techer.yearBorn = +prompt("in which year do you born");
+// }
+// if(techer.hourSalary<100 || techer.yearBorn>1990){
+//     document.write(
+//       "<span>" + techer.name + "</span>",
+//       "<span>" + techer.hourSalary + "</span>",
+//       "<span>" + techer.email + "</span>",
+//       "<span>" + techer.yearBorn + "</span>"
+//     );
+// }
+
+// }
+// printSomeOfTheValue(3)
+
+
+
+// function printTheRahit(number){
+//     var stores = []
+// for(var i = 0 ; i<number ; i++){
+//     var furniture = {}
+//     furniture.name = prompt("type a name");
+//     furniture.brand = prompt("type random brand");
+//     furniture.stores = prompt("where i can buy?what store?");
+
+// }
+// stores.push(stores.furniture.stores);
+// document.write(furniture.furniture.name + "<br>" + furniture.name);
+
+// }
+// printTheRahit(1);
+
+
+
+
+
+
+function printSomeOfTheValue(number){
+for(var i = 0 ; i<number ; i++){
+    var apartment={
+      address: prompt("what is the address"),
+      rentalPrice: +prompt("tell me the rantel price"),
+      interested: [prompt("did you intrested?")],
+      mediation: confirm("Is there mediation")
+    }
+    if(apartment.mediation == false){
+        document.write(apartment.address + "<br>" + apartment.interested);
+    }
+}
+}
+printSomeOfTheValue(2);
+
+
+
+
+
+
+
+
+
+
+
 
