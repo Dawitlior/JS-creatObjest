@@ -161,8 +161,9 @@
 // 18.	צרו פונקציה הקולטת מספר מהמשתמש ומייצרת מספר אובייקטים, על פי הקלט, של כלב, לכל כלב יש שם, גיל, סוג ושם בעלים. תנו להם ערכים מהמשתמש, הדפיסו כל אובייקט למסך, כל אובייקט ב p משלו.
 
 // function printAllObjectToScreen(){
+//     var user = +prompt("type random number")
 //     someArray = []
-//     for(var i = 0 ; i<4 ; i++){
+//     for(var i = 0 ; i<user; i++){
 //         var dog = {}
 //         dog.name = prompt("type random name")
 //         dog.age = +prompt("type random age")
@@ -183,31 +184,51 @@
 // 19.	צרו פונקציה הקולטת מספר מהמשתמש ומייצרת מספר אובייקטים, על פי הקלט, של חרק, לכל חרק יש שם רגיל, שם מדעי, מספר רגליים והאם יש לו כנפיים. תנו להם ערכים מהמשתמש, הדפיסו רק את החרקים שיש להם כנפיים, כל חרק ב H3 משלו.
 
 // function printOnlyTheBugsWithWings(){
+//     var userNumber = +prompt("type random number");
 // someArray = []
-// for(var i = 0 ; i<4 ; i++){
+// for(var i = 0 ; i<userNumber ; i++){
 //     var bug = {}
 //     bug.name = prompt("type random name");
 //     bug.scienceName = prompt("type random Scientific name");
 //     bug.numberLegs = +prompt("type random number of legs");
-//     bug.wings = prompt("type if he had some wings");
+//     bug.wings = confirm("type if he had some wings");
 //     someArray.push(bug)
 //     if(bug.wings == 'yes'){
 //         document.write(someArray[bug.wings])
-//     }
-// }
-
-// }
+//     }}}
 // printOnlyTheBugsWithWings();
 
 
-function printOnlySpsificAge(){
+
+
+// 20.	צרו פונקציה הקולטת מספר מהמשתמש ומייצרת מספר אובייקטים, על פי הקלט, של ילד, לכל ילד יש שם מלא, גיל, והאם הוא בגן. תנו להם ערכים מהמשתמש, הדפיסו רק את הילדים מעל גיל 4 למסך, כל ילד ב p משלו.
+// function printOnlySpsificAge(){
+//     var userNumber = +prompt("type random number")
+// someArray = []
+// for(var i = 0 ; i<userNumber ; i++){
+//     var theKid = {}
+//     theKid.name = prompt("type random name");
+//     theKid.age = +prompt("type");
+//     theKid.garden = confirm("did the kid learn in scholl?");
+//     someArray.push(theKid);
+//     if(theKid.age>4){
+//         document.write("<p>" + theKid.name + "</p>");
+//     }
+// }
+// }
+
+// printOnlySpsificAge();
+
+
+// 21.	צרו פונקציה המקבלת מספר כארגומנט ומייצרת מספר אובייקטים, על פי המספר, של מחשב, לכל מחשב יש חברה, דגם, משקל והאם יש במלאי.
+//  תנו להם ערכים מהמשתמש, הדפיסו רק את המחשבים שיש במלאי והמשקל שלהם מעל 2 קילו למסך, כל מחשב ב p משלו.
 
 
 
-}
-
-printOnlySpsificAge();
 
 
 
+
+
+// 22.	צרו פונקציה המקבלת מספר כארגומנט ומייצרת מספר אובייקטים, על פי המספר, של מורה, לכל מורה יש שם מלא, שכר שעתי, אימייל ושנת לידה. תנו להם ערכים מהמשתמש, הדפיסו רק את המורים שמקבלים יותר מ 100  שקל לשעה או שנת הלידה שלהם נמוכה מ 1990 למסך, כל מורה ב SPAN משלו.
 
