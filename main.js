@@ -271,7 +271,7 @@
 // printSomeOfTheValue(3)
 
 
-
+// 23.	צרו פונקציה המייצרת על פי ארגומנט, מספר אובייקטים, של רהיט, לכל רהיט יש שם, מותג, מערך חנויות בהן ניתן לקנות את הרהיט, ומחיר. תנו להם ערכים מהמשתמש, הדפיסו למסך את שם הרהיט ומתחת את החנויות בהן ניתן לקנות הרהיט.
 // function printTheRahit(number){
 //     var stores = []
 // for(var i = 0 ; i<number ; i++){
@@ -289,23 +289,33 @@
 
 
 
+// 24.	צרו פונקציה המייצרת על פי ארגומנט, מספר אובייקטים, של דירה, לכל דירה יש כתובת, מחיר השכרה, מחיר קניה, מערך מתעניינים בדירה, והאם יש תיווך. תנו להם ערכים מהמשתמש, הדפיסו למסך רק את האובייקטים שאין להם תיווך, לכל דירה הדפיסו את הכתובת ומתחת את המועמדים.
+
+
+// function printSomeOfTheValue(number){
+// for(var i = 0 ; i<number ; i++){
+//     var apartment={
+//       address: prompt("what is the address"),
+//       rentalPrice: +prompt("tell me the rantel price"),
+//       interested: [prompt("did you intrested?")],
+//       mediation: confirm("Is there mediation")
+//     }
+//     if(apartment.mediation == false){
+//         document.write(apartment.address + "<br>" + apartment.interested);
+//     }
+// }
+// }
+// printSomeOfTheValue(2);
 
 
 
-function printSomeOfTheValue(number){
-for(var i = 0 ; i<number ; i++){
-    var apartment={
-      address: prompt("what is the address"),
-      rentalPrice: +prompt("tell me the rantel price"),
-      interested: [prompt("did you intrested?")],
-      mediation: confirm("Is there mediation")
-    }
-    if(apartment.mediation == false){
-        document.write(apartment.address + "<br>" + apartment.interested);
-    }
-}
-}
-printSomeOfTheValue(2);
+
+
+
+
+
+
+
 
 
 
