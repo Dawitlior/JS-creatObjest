@@ -3,10 +3,8 @@
 // firstName : 'lior',
 // lastName : 'dawit',
 // age : 25,
-// money : 45450 
+// money : 45450
 // }
-
-
 
 // 2.	צרו אובייקט של עובד, עם שדות של שם מלא, שנת לידה, אימייל וכתובת ותנו להם ערכים.
 // var worker = {
@@ -17,8 +15,6 @@
 // adress : 'beerYakov'
 // }
 
-
-
 // 2.	צרו אובייקט של עובד, עם שדות של שם מלא, שנת לידה, אימייל וכתובת ותנו להם ערכים.
 
 // var frute = {
@@ -26,8 +22,6 @@
 // color : 'Red',
 // type : 'tree'
 // }
-
-
 
 // 7.	צרו אובייקט של כיתה, עם שדות של מספר הכיתה, מספר התלמידים ושמות התלמידים, תנו ערכים הגיוניים, שמות התלמידים הוא מערך של 5 שמות.
 // var myClass = {
@@ -40,9 +34,6 @@
 // }
 // var myKee = prompt('enter a kea')
 // console.log(myClass[myKee]);
-
-
-
 
 // 9.	צרו אובייקט של גן ילדים, עם שדות של שם גננת, מספר הילדים ושמות הילדים, תנו ערכים הגיוניים, שמות הילדים הוא מערך של 10 שמות.
 
@@ -58,16 +49,10 @@
 // var someKey = prompt('Type a key')
 // document.write(schollkids[someKey])
 
-
-
-
 // 11.	קלטו מהמשתמש key והדפיסו את הערך שלו למסך.
 // var myObject = {};
 // myObject.name = prompt("tell me someting");
 // console.log(myObject);
-
-
-
 
 // 12.	צרו אובייקט של כיתה, בעזרת קלטים מהמשתמש צרו שדות של מספר הכיתה, מספר התלמידים וגיל והדפיסו את האובייקט ללוג.
 
@@ -77,28 +62,20 @@
 // bestClass.age = +prompt("what your age");
 // console.log(bestClass);
 
-
-
-
 // 14.	צרו אובייקט של מנהל, בעזרת קלטים צרו שדות של שם פרטי, שם משפחה, גיל ושכר ותנו להם ערכים מהמשתמש.
 //     var maneger = {}
 // for(var i = 0 ; i<4 ; i++){
 //     var valueFromUser = +prompt("that your value")
 //     var keyFromUser = +prompt("what the key")
-//     maneger[keyFromUser] = valueFromUser ; 
+//     maneger[keyFromUser] = valueFromUser ;
 // }
 
-
-
 // 13.	צרו אובייקט של מורה, בעזרת קלט צרו שדה של שם ותנו לו ערך מהמשתמש.
-    // var techer = {}
-    // var nameValue = prompt("what your name")
-    // var nameKey = prompt("what the key")
-    
-    // techer[nameKey] = nameValue ;
+// var techer = {}
+// var nameValue = prompt("what your name")
+// var nameKey = prompt("what the key")
 
-
-
+// techer[nameKey] = nameValue ;
 
 // 15.	צרו אובייקט של משתמש, בעזרת קלטים צרו שדות של שם פרטי, שם משפחה, אימייל וסיסמה ותנו להם ערכים מהמשתמש, הדפיסו את האובייקט למסך, כל ערך בדיב משלו.
 
@@ -109,7 +86,6 @@
 //     someUser[keyFromUser] = valueFromUser
 //     document.write("<div>" + someUser[keyFromUser] + "</div>")
 // }
-
 
 // 16.	צרו 4 אובייקטים של רכב, לכל רכב יש שדות של חברה, צבע, סמ"ק ושנתון. תנו להם ערכים מהמשתמש, הדפיסו כל אובייקט למסך, כל אובייקט בדיב משלו.
 
@@ -137,9 +113,6 @@
 // }
 // someFunction();
 
-
-
-
 // 17.	צרו פונקציה שיוצרת 3 אובייקטים של חתול, לכל חתול יש שם, שנת לידה, סוג ומשקל. תנו להם ערכים מהמשתמש, הדפיסו כל אובייקט למסך, כל אובייקט ב h1 משלו.
 
 // function printObjectToScreen(){
@@ -156,7 +129,6 @@
 //        )
 //     }
 // }
-
 
 // 18.	צרו פונקציה הקולטת מספר מהמשתמש ומייצרת מספר אובייקטים, על פי הקלט, של כלב, לכל כלב יש שם, גיל, סוג ושם בעלים. תנו להם ערכים מהמשתמש, הדפיסו כל אובייקט למסך, כל אובייקט ב p משלו.
 
@@ -180,7 +152,6 @@
 // }
 //     printAllObjectToScreen();
 
-
 // 19.	צרו פונקציה הקולטת מספר מהמשתמש ומייצרת מספר אובייקטים, על פי הקלט, של חרק, לכל חרק יש שם רגיל, שם מדעי, מספר רגליים והאם יש לו כנפיים. תנו להם ערכים מהמשתמש, הדפיסו רק את החרקים שיש להם כנפיים, כל חרק ב H3 משלו.
 
 // function printOnlyTheBugsWithWings(){
@@ -198,27 +169,24 @@
 //     }}}
 // printOnlyTheBugsWithWings();
 
-
-
-
 // 20.	צרו פונקציה הקולטת מספר מהמשתמש ומייצרת מספר אובייקטים, על פי הקלט, של ילד, לכל ילד יש שם מלא, גיל, והאם הוא בגן. תנו להם ערכים מהמשתמש, הדפיסו רק את הילדים מעל גיל 4 למסך, כל ילד ב p משלו.
 // function printOnlySpsificAge(){
 //     var userNumber = +prompt("type random number")
 // someArray = []
 // for(var i = 0 ; i<userNumber ; i++){
-//     var theKid = {}
-//     theKid.name = prompt("type random name");
-//     theKid.age = +prompt("type");
-//     theKid.garden = confirm("did the kid learn in scholl?");
-//     someArray.push(theKid);
+//   var theKid = {};
+//   theKid.name = prompt("type random name");
+//   theKid.age = +prompt("type");
+//   theKid.garden = confirm("did the kid learn in scholl?");
+//   someArray.push(theKid);
+// }
 //     if(theKid.age>4){
 //         document.write("<p>" + theKid.name + "</p>");
 //     }
-// }
+
 // }
 
 // printOnlySpsificAge();
-
 
 // 21.	צרו פונקציה המקבלת מספר כארגומנט ומייצרת מספר אובייקטים, על פי המספר, של מחשב, לכל מחשב יש חברה, דגם, משקל והאם יש במלאי.
 //  תנו להם ערכים מהמשתמש, הדפיסו רק את המחשבים שיש במלאי והמשקל שלהם מעל 2 קילו למסך, כל מחשב ב p משלו.
@@ -244,10 +212,6 @@
 // }
 // printOnlyTheComputer(2);
 
-
-
-
-
 // 22.	צרו פונקציה המקבלת מספר כארגומנט ומייצרת מספר אובייקטים, על פי המספר, של מורה, לכל מורה יש שם מלא, שכר שעתי, אימייל ושנת לידה. תנו להם ערכים מהמשתמש, הדפיסו רק את המורים שמקבלים יותר מ 100  שקל לשעה או שנת הלידה שלהם נמוכה מ 1990 למסך, כל מורה ב SPAN משלו.
 
 // function printSomeOfTheValue(number){
@@ -270,7 +234,6 @@
 // }
 // printSomeOfTheValue(3)
 
-
 // 23.	צרו פונקציה המייצרת על פי ארגומנט, מספר אובייקטים, של רהיט, לכל רהיט יש שם, מותג, מערך חנויות בהן ניתן לקנות את הרהיט, ומחיר. תנו להם ערכים מהמשתמש, הדפיסו למסך את שם הרהיט ומתחת את החנויות בהן ניתן לקנות הרהיט.
 // function printTheRahit(number){
 //     var stores = []
@@ -287,44 +250,29 @@
 // }
 // printTheRahit(1);
 
-
-
 // 24.	צרו פונקציה המייצרת על פי ארגומנט, מספר אובייקטים, של דירה, לכל דירה יש כתובת, מחיר השכרה, מחיר קניה, מערך מתעניינים בדירה, והאם יש תיווך. תנו להם ערכים מהמשתמש, הדפיסו למסך רק את האובייקטים שאין להם תיווך, לכל דירה הדפיסו את הכתובת ומתחת את המועמדים.
 
-
-// function printSomeOfTheValue(number){
-// for(var i = 0 ; i<number ; i++){
-//     var apartment={
-//       address: prompt("what is the address"),
-//       rentalPrice: +prompt("tell me the rantel price"),
-//       interested: [prompt("did you intrested?")],
-//       mediation: confirm("Is there mediation")
-//     }
-//     if(apartment.mediation == false){
-//         document.write(apartment.address + "<br>" + apartment.interested);
-//     }
-// }
-// }
-// printSomeOfTheValue(2);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function printSomeOfTheValue(number) {
+  for (var i = 0; i < number; i++) {
+    var apartment = {
+      address: prompt("what is the address"),
+      rentalPrice: +prompt("tell me the rantel price"),
+      interested: [],
+      buyPrice: +prompt(""),
+      isMediation: confirm("Is there mediation"),
+    };
+    var numberOfIntrestedPeople = +prompt(
+      "enter the number of intrested people"
+    );
+    for (var j = 0; j < numberOfIntrestedPeople; j++) {
+      apartment.interested.push(prompt("enter intrestrd people"));
+    }
+    if (!apartment.isMediation) {
+      document.write(apartment.address + "<br>");
+      for (var j = 0; j < apartment.interested.length; j++) {
+        document.write(apartment.interested[j] + "<br>");
+      }
+    }
+  }
+}
+printSomeOfTheValue(2);
